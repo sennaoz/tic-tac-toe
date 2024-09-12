@@ -192,6 +192,7 @@ class Program
     {
         foreach (char cell in board)
         {
+            
             if (cell == '-')
             {
                 return false;
