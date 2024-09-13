@@ -190,6 +190,7 @@ class Program
 
     static bool IsBoardFull()
     {
+        
         foreach (char cell in board)
         {
             
