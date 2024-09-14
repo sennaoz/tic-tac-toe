@@ -174,8 +174,11 @@ namespace TicTacToeGame
                 }
             }
 
+
             return diagonal1 || diagonal2;
         }
+
+
 
         private void ResetGame()
         {
@@ -183,5 +186,6 @@ namespace TicTacToeGame
             currentPlayer = player1Name;
             turnLabel.Text = $"{currentPlayer}'ın sırası";
         }
+        
     }
 }
